@@ -1,0 +1,82 @@
+@import url('../vendor/fonts/Manrope/fonts.css');
+
+/* Variables */
+
+/* Screens */
+$sm: 640px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1280px;
+$Xxl: 1536px;
+
+/* Colors */
+
+$black-100: #2B2C35;
+$primary-blue: #2B59FF;
+$white: #F5F8FF;
+$secondary-orange: #f79761;
+$blue: rgba(59, 60, 152);
+$grey: #747A88;
+
+/* Fonts */
+$font-xl: 72px;
+
+
+/*Padding */
+@mixin padding-x {
+  padding-left: 1.5rem; /* 24px */
+  padding-right: 1.5rem; /* 24px */
+  @media screen and (min-width: $sm) {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@mixin padding-y {
+  padding: 8px 0;
+}
+
+/* Positioning */
+
+@mixin flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin flex-center {
+  @include flex-between;
+  justify-content: center;
+}
+
+@mixin custom-btn {
+  @include flex-center;
+  position: relative;
+  padding: 3px 6px;
+  outline: none;
+  border: none;
+}
+
+@mixin button-container-styles {
+  background-color: $primary-blue;
+  color: $white;
+  border-radius: 9999px;
+  margin-top: 2.5rem;
+}
+
+.app {
+  box-sizing: border-box;
+  font-family: "Manrope", Arial, sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  min-width: 320px;
+  margin: 0 auto;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}

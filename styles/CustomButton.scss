@@ -1,0 +1,10 @@
+@import "global.scss";
+
+.custom-btn {
+  @include custom-btn;
+  @include button-container-styles;
+}
+
+.custom-btn__inner {
+  flex: 1 1 0%;
+}

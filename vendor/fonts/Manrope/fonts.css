@@ -1,0 +1,72 @@
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: local('Manrope-extralight'),
+  local('manrope-extralight'),
+  url('./Manrope-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Manrope-light'),
+  local('manrope-light'),
+  url('./Manrope-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Manrope-regular'),
+  local('manrope-regular'),
+  local('manrope-nomal'),
+  local('Manrope-nomal'),
+  url('./Manrope-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Manrope-medium'),
+  local('manrope-medium'),
+  url('./Manrope-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Manrope-semibold'),
+  local('manrope-semibold'),
+  url('./Manrope-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Manrope-bold'),
+  local('manrope-bold'),
+  url('./Manrope-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Manrope-extrabold'),
+  local('manrope-extrabold'),
+  url('./Manrope-ExtraBold.ttf') format('truetype');
+}
+

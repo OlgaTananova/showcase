@@ -1,0 +1,44 @@
+@import url("../vendor/fonts/Manrope/fonts.css");
+/* Variables */
+/* Screens */
+/* Colors */
+/* Fonts */
+/*Padding */
+/* Positioning */
+.app {
+  box-sizing: border-box;
+  font-family: "Manrope", Arial, sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  min-width: 320px;
+  margin: 0 auto;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+.custom-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: center;
+  position: relative;
+  padding: 3px 6px;
+  outline: none;
+  border: none;
+  background-color: #2B59FF;
+  color: #F5F8FF;
+  border-radius: 9999px;
+  margin-top: 2.5rem;
+}
+
+.custom-btn__inner {
+  flex: 1 1 0%;
+}
+
+/*# sourceMappingURL=CustomButton.css.map */

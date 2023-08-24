@@ -1,8 +1,10 @@
 import '../styles/global.scss'
-import type { Metadata } from 'next'
+import type { Metadata } from 'next';
+import {Navbar} from "@/components";
+import {Footer} from "@/components";
 export const metadata: Metadata = {
   title: 'Car Showcase',
-  description: '',
+  description: 'Discover the best cars in the world',
 }
 
 export default function RootLayout({
@@ -12,7 +14,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='app'>{children}</body>
+      <body className='app'>
+      <Navbar />
+      {children}
+      <Footer />
+      </body>
     </html>
   )
 }

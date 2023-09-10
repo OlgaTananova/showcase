@@ -20,6 +20,7 @@ function Hero() {
                     <div className="hero__image">
                         <Image src={heroImage} fill style={{objectFit: 'contain'}} alt={'Hero'} />
                     </div>
+                    <div className="hero__image-overlay"></div>
                 </div>
             </div>
 
